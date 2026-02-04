@@ -2,12 +2,23 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function FlexBox() {
   return (
-    <View style={{ padding: 50 }}>
+    <View
+      style={{
+        backgroundColor: 'yellow',
+        padding: 50,
+        flexDirection: 'row',
+        width: '80%',
+        height: 300,
+        justifyContent: 'space-around',
+        alignItems: 'streach',
+      }}
+    >
       <View
         style={{
           backgroundColor: 'red',
-          width: 100,
-          height: 100,
+          flex: 1,
+          // width: 100,
+          // height: 100,
           justifyContent: 'center',
           alignItems: 'center',
         }}
@@ -17,24 +28,25 @@ export default function FlexBox() {
       <View
         style={{
           backgroundColor: 'blue',
-          width: 100,
-          height: 100,
+          flex: 2,
+          // width: 100,
+          // height: 100,
           justifyContent: 'center',
           alignItems: 'center',
         }}
       >
-        <Text>1</Text>
+        <Text>2</Text>
       </View>
       <View
         style={{
           backgroundColor: 'green',
-          width: 100,
-          height: 100,
+          // width: 100,
+          // height: 100,
           justifyContent: 'center',
           alignItems: 'center',
         }}
       >
-        <Text>1</Text>
+        <Text>3</Text>
       </View>
     </View>
   );
