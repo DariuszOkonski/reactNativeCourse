@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 50,
     paddingHorizontal: 16,
-    backgroundColor: 'yellow',
+    // backgroundColor: 'yellow',
   },
   inputContainer: {
     flex: 1,
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
     borderBottomWidth: 1,
     borderBottomColor: '#cccccc',
-    backgroundColor: 'blue',
+    // backgroundColor: 'blue',
   },
   textInput: {
     borderWidth: 1,
@@ -41,6 +41,6 @@ const styles = StyleSheet.create({
   },
   goalsContainer: {
     flex: 5,
-    backgroundColor: 'green',
+    // backgroundColor: 'green',
   },
 });
