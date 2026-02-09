@@ -34,9 +34,9 @@ export default function App() {
         <FlatList
           data={courseGoals}
           renderItem={(itemData) => {
-            return <GoalInput itemData={itemData} />;
+            return <GoalInput text={itemData.item.text} />;
           }}
-          keyExtractor={(item, index) => {
+          keyExtractor={(item) => {
             return item.id;
           }}
           alwaysBounceVertical={false}
